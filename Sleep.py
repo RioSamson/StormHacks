@@ -37,9 +37,3 @@ class Sleep:
         return "Hi! This is the sleep tracker."
 
 
-ss1 = Sleep()
-ss1.run()
-# hours = ss1.getTimeSlept()
-# print(hours)
-# print(ss1)
-# ss1.sleepInput()
