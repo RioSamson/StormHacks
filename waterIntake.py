@@ -93,7 +93,6 @@ class WaterIntake:
             counter += 1
             print(str(counter) + ". " + i)
         print("Try your best to drink enough water! And I'll continue to beg my owner for regular water... (=〃ﻌ〃=)")
-        print
 
 # water = WaterIntake()
 # water.giveWaterAdvice()
