@@ -3,7 +3,7 @@ class Sleep:
     def run(self):
         print(self)
         self.inputAge()
-        print("Let's try to get some good sleep tonight!")
+        print("Let's try to get some good sleep tonight!\n")
 
     def inputAge(self):
         userInput = int(input("Please type you age : "))
@@ -34,6 +34,6 @@ class Sleep:
             print("           '---''(_/--'  `-'\_)  Felix Lee\n\n\n")
 
     def __str__(self):
-        return "Hi! This is the sleep tracker."
+        return "Meoww! Welcome to the sleep tracker! (=^-ω-^=) "
 
 
