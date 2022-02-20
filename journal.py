@@ -3,6 +3,9 @@ from operator import length_hint
 from webbrowser import get
 
 class Journal: 
+
+    numOfEntries = 1
+
     def journal(self):
         print("Meoww! Welcome to the journal!")
         print("ฅ^•ﻌ•^ฅ")
@@ -20,3 +23,4 @@ class Journal:
             print("I see, thank you for sharing")
         else:
             print("I appreciate your response. I understand it's not always easy to share this much.\nBut expressing your thoughts is always great!")
+        self.numOfEntries += 1
