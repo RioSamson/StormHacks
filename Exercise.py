@@ -40,9 +40,9 @@ class Exercise:
 
 
 
-c = Exercise()
-c.getDailyExercise()
-c.summary()
+# c = Exercise()
+# c.getDailyExercise()
+# c.summary()
 
 
 

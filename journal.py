@@ -3,7 +3,6 @@ from operator import length_hint
 from webbrowser import get
 
 class Journal: 
-    numOfEntries = 1
     def journal(self):
         print("Meoww! Welcome to the journal!")
         print("ฅ^•ﻌ•^ฅ")
@@ -18,11 +17,6 @@ class Journal:
             return
 
         if (lengthOfInput < 100):
-            self.numOfEntries += 1
             print("I see, thank you for sharing")
         else:
-            self.numOfEntries += 1
             print("I appreciate your response. I understand it's not always easy to share this much.\nBut expressing your thoughts is always great!")
-
-myJournal = Journal()
-myJournal.journal()
