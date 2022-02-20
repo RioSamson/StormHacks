@@ -1,3 +1,5 @@
+from journal import Journal
+
 class Emotions:
     emotions = ["angry", "stressed", "sad", "happy", "excited"]
 
@@ -11,7 +13,8 @@ class Emotions:
             if scale == 1:
                 self.stressTracker()
             print("Hmmm, that's not good. Would you like to talk about it in your journal?")
-            #direct user to journal
+            myJournal = Journal()
+            myJournal.journal()
         else:
             print("Meoww! I'm so glad you are feeling", emotion, "today!")
         
