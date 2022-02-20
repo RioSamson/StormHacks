@@ -10,8 +10,9 @@ from Exercise import Exercise
 from Sleep import Sleep
 from Quote import Quote
 from meditation import meditation
+from socialInteraction import SocialInteraction
 
-menuArray = ["Sleep", "Water", "Journal", "Emotion/Stress", "Exercise", "Meditate", "Exit"]
+menuArray = ["Sleep", "Water", "Journal", "Emotion/Stress", "Exercise", "Meditate", "Social Interaction", "Exit"]
 quote = Quote()
 
 def run():
@@ -45,8 +46,10 @@ def run():
             exercise.summary()
         if (userInput == 6):
             meditate = meditation()
-            meditateLength = int(input("How long do you want to meditate? (in secs): "))
-            meditate.meditate(meditateLength)
+            meditate.meditate()
+        if (userInput == 7):
+            socialInteraction = SocialInteraction()
+            socialInteraction.run()
         if(userInput == len(menuArray)):
             print("\nThank you for using Mental Health Cat Buddy!\n")
             isNotDone = False
