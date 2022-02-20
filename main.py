@@ -27,7 +27,7 @@ def run():
         if (userInput == 2):
             water = WaterIntake()
             print("Would you like advice on how much water to drink? Check if you are drinking enough? Read the benefits of drinking enough water?")
-            waterInput = input("Type 'advice', 'check', 'benefits', or 'quit' to leave").strip().lower()
+            waterInput = input("Type 'advice', 'check', 'benefits', or 'quit' to leave: ").strip().lower()
             if (waterInput == "advice"):
                 water.giveWaterAdvice()
             elif (waterInput == "check"):
