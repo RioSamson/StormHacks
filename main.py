@@ -24,7 +24,7 @@ def printMenu():
     print("\nQuote: " + quoteStr)
     print("*********MENU*********")
     print("        ,_     _    ")
-    print("        |\\_,-~/      ") 
+    print("        |\\_,-~/      ")
     print("        / _  _ |    ,--.   ")
     print("       (  @  @ )   / ,-'   ")
     print("        \  _T_/-._( (     ")
@@ -33,7 +33,7 @@ def printMenu():
     print("        \ \ ,  /      |   ")
     print("         || |-_\__   /     ")
     print("        ((_/`(____,-'     ")
-    for i in range(len(menuArray)): 
+    for i in range(len(menuArray)):
         print(str (i + 1) + ") " + menuArray[i])
 
 run()
