@@ -19,7 +19,7 @@ def run():
     isNotDone = True
     while(isNotDone):
         printMenu()
-        userInput = int(input("Please pick from the menu (0-5) : "))
+        userInput = int(input("Please pick from the menu (0-8) : "))
         print()
         if(userInput == 1):
             sleep = Sleep()
