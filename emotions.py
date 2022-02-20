@@ -1,4 +1,5 @@
 from journal import Journal
+from meditation import meditation
 
 class Emotions:
     emotions = ["angry", "stressed", "sad", "happy", "excited"]
@@ -12,9 +13,14 @@ class Emotions:
         if scale <= 2:
             if scale == 1:
                 self.stressTracker()
-            print("Hmmm, that's not good. Would you like to talk about it in your journal?")
-            myJournal = Journal()
-            myJournal.journal()
+            print("Hmmm, that's not good. Would you like to talk about it in your journal? Meditate?")
+            relieveChoice = input("Type 'Journal' or 'Meditate' or 'quit': ").strip().lower()
+            if (relieveChoice == "journal"):
+                myJournal = Journal()
+                myJournal.journal()
+            if (relieveChoice == "meditate"):
+                meditate = meditation()
+                meditate.meditate()
         else:
             print("Meoww! I'm so glad you are feeling", emotion, "today!")
         

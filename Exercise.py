@@ -40,10 +40,5 @@ class Exercise:
 
 
 
-# c = Exercise()
-# c.getDailyExercise()
-# c.summary()
-
-
 
         
