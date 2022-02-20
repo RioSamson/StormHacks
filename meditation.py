@@ -14,6 +14,3 @@ class meditation:
             print("Breate out...")
         time.sleep(2.0)
         print("Purrr! You just meditated for", secs, "seconds.")
-        
-obj = meditation()
-obj.meditate(15)
